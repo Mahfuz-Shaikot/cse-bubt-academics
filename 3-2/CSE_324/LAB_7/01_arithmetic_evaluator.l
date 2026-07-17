@@ -1,0 +1,10 @@
+[0-9]+  { yylval = atoi(yytext); return NUMBER; }
+"+"     { return '+'; }
+"-"     { return '-'; }
+"*"     { return '*'; }
+"/"     { return '/'; }
+"("     { return '('; }
+")"     { return ')'; }
+[ \t]   { }
+\n      { return 0; }
+.       { return yytext[0]; }
