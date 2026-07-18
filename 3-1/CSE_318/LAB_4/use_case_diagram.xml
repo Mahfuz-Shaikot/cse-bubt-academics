@@ -1,0 +1,208 @@
+<mxfile host="app.diagrams.net" agent="5.0">
+  <diagram id="FIRS-Use-Case-Diagram-Fixed" name="Use Case Diagram">
+    <mxGraphModel dx="1906" dy="1105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1150" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sys_boundary" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7F7F7F;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1060" width="600" x="180" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="act_auth_user" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#000000;fontStyle=0;fontSize=13;align=center;" value="Authorized User" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="act_customer" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#000000;fontStyle=0;fontSize=13;align=center;" value="Customer" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="act_dealer" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#000000;fontStyle=0;fontSize=13;align=center;" value="Authorized Dealer" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="act_govt" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#000000;fontStyle=0;fontSize=13;align=center;" value="Govt Authority" vertex="1">
+          <mxGeometry height="60" width="30" x="820" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="act_admin" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#000000;fontStyle=0;fontSize=13;align=center;" value="System manager" vertex="1">
+          <mxGeometry height="60" width="30" x="820" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_login" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Login" vertex="1">
+          <mxGeometry height="60" width="100" x="415" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_manage_inv_top" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Manage Own&lt;br&gt;Firearm&lt;br&gt;Inventory" vertex="1">
+          <mxGeometry height="60" width="105" x="455" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_search_crim" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Search&lt;br&gt;Firearm&#39;s&lt;br&gt;Criminal&lt;br&gt;Activity" vertex="1">
+          <mxGeometry height="65" width="105" x="385" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_reject_lic" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Reject License&lt;br&gt;Application" vertex="1">
+          <mxGeometry height="60" width="110" x="510" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_reg_acc" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Register&lt;br&gt;Account" vertex="1">
+          <mxGeometry height="60" width="100" x="275" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_browse_cat" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Browse Gun&lt;br&gt;Catalog" vertex="1">
+          <mxGeometry height="60" width="105" x="270" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_view_details" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="View Gun&lt;br&gt;Details" vertex="1">
+          <mxGeometry height="60" width="100" x="405" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_approve_lic" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Approve&lt;br&gt;License&lt;br&gt;Application" vertex="1">
+          <mxGeometry height="60" width="105" x="505" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_review_lic" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Review&lt;br&gt;License&lt;br&gt;Application" vertex="1">
+          <mxGeometry height="60" width="105" x="635" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_renew_lic" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Renew Firearm&lt;br&gt;License" vertex="1">
+          <mxGeometry height="60" width="105" x="270" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_req_suggest" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Request&lt;br&gt;Dealer&lt;br&gt;Suggestion" vertex="1">
+          <mxGeometry height="65" width="110" x="390" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_approve_perm" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Approve Permit" vertex="1">
+          <mxGeometry height="60" width="105" x="495" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_review_perm" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Review Permit&lt;br&gt;Application" vertex="1">
+          <mxGeometry height="60" width="105" x="635" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_apply_lic" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Apply for&lt;br&gt;Firearm&lt;br&gt;License" vertex="1">
+          <mxGeometry height="60" width="105" x="270" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_monitor_welf" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Monitor&lt;br&gt;Welfare Usage" vertex="1">
+          <mxGeometry height="60" width="105" x="645" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_check_lic" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Check License&lt;br&gt;Status" vertex="1">
+          <mxGeometry height="60" width="105" x="270" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_reject_perm" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Reject Permit" vertex="1">
+          <mxGeometry height="60" width="100" x="515" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_manage_dealer" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Manage Dealer&lt;br&gt;Records" vertex="1">
+          <mxGeometry height="60" width="105" x="645" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_renew_perm" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Renew Selling&lt;br&gt;Permit" vertex="1">
+          <mxGeometry height="60" width="105" x="275" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_apply_perm" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Apply for&lt;br&gt;Selling Permit" vertex="1">
+          <mxGeometry height="60" width="105" x="380" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_maintain_data" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Maintain&lt;br&gt;System Data" vertex="1">
+          <mxGeometry height="60" width="105" x="645" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_check_perm" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Check Selling&lt;br&gt;Permit Status" vertex="1">
+          <mxGeometry height="60" width="115" x="285" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_manage_db" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Manage&lt;br&gt;Firearm&lt;br&gt;Database" vertex="1">
+          <mxGeometry height="60" width="105" x="645" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_transfer" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Transfer&lt;br&gt;Firearm&lt;br&gt;Ownership" vertex="1">
+          <mxGeometry height="60" width="110" x="280" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_update_sales" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Update&lt;br&gt;Firearm Sales&lt;br&gt;Information" vertex="1">
+          <mxGeometry height="65" width="110" x="430" y="855" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_manage_user" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Manage User&lt;br&gt;Accounts" vertex="1">
+          <mxGeometry height="60" width="105" x="645" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_manage_inv_bot" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;align=center;fontSize=11;" value="Manage Own&lt;br&gt;Firearm&lt;br&gt;Inventory" vertex="1">
+          <mxGeometry height="60" width="105" x="280" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="con_au_1" edge="1" parent="1" source="act_auth_user" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_login" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_au_2" edge="1" parent="1" source="act_auth_user" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_manage_inv_top" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_au_3" edge="1" parent="1" source="act_auth_user" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_search_crim" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_cust_1" edge="1" parent="1" source="act_customer" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_login" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_cust_2" edge="1" parent="1" source="act_customer" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_reg_acc" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_cust_3" edge="1" parent="1" source="act_customer" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_browse_cat" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_cust_4" edge="1" parent="1" source="act_customer" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_renew_lic" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_cust_5" edge="1" parent="1" source="act_customer" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_apply_lic" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_cust_6" edge="1" parent="1" source="act_customer" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_check_lic" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_deal_1" edge="1" parent="1" source="act_dealer" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_login" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_deal_2" edge="1" parent="1" source="act_dealer" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_renew_perm" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_deal_3" edge="1" parent="1" source="act_dealer" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_check_perm" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_deal_4" edge="1" parent="1" source="act_dealer" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_transfer" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_deal_5" edge="1" parent="1" source="act_dealer" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_manage_inv_bot" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_gov_1" edge="1" parent="1" source="uc_login" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="act_govt" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_gov_2" edge="1" parent="1" source="uc_review_lic" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="act_govt" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_gov_3" edge="1" parent="1" source="uc_review_perm" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="act_govt" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_gov_4" edge="1" parent="1" source="uc_monitor_welf" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="act_govt" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_gov_5" edge="1" parent="1" source="uc_manage_dealer" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="act_govt" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_adm_1" edge="1" parent="1" source="uc_maintain_data" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="act_admin" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_adm_2" edge="1" parent="1" source="uc_manage_db" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="act_admin" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="con_adm_3" edge="1" parent="1" source="uc_manage_user" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="act_admin" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_browse_view" edge="1" parent="1" source="uc_browse_cat" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.2;" target="uc_view_details" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_sugg_view" edge="1" parent="1" source="uc_req_suggest" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.2;" target="uc_view_details" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_renew_rev" edge="1" parent="1" source="uc_renew_lic" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.2;" target="uc_review_lic" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_apply_rev" edge="1" parent="1" source="uc_apply_lic" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.2;" target="uc_review_lic" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_appr_lic_rev" edge="1" parent="1" source="uc_approve_lic" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.2;" target="uc_review_lic" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_rej_lic_rev" edge="1" parent="1" source="uc_reject_lic" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.2;" target="uc_review_lic" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_ren_perm_rev" edge="1" parent="1" source="uc_renew_perm" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.2;" target="uc_review_perm" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_app_perm_rev" edge="1" parent="1" source="uc_apply_perm" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.2;" target="uc_review_perm" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_ap_p_rev" edge="1" parent="1" source="uc_approve_perm" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.2;" target="uc_review_perm" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_rj_p_rev" edge="1" parent="1" source="uc_reject_perm" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.2;" target="uc_review_perm" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_trans_update" edge="1" parent="1" source="uc_transfer" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.2;" target="uc_update_sales" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

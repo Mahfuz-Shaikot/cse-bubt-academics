@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net" agent="5.0">
+  <diagram id="FIRS-Dark-Context-DFD-Fixed" name="FIRS Context DFD Fixed">
+    <mxGraphModel dx="1414" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#121212" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p0_header" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#134E5E;strokeColor=#1F6F81;strokeWidth=1;fontStyle=0;fontSize=12;fontColor=#FFFFFF;align=center;" value="P0" vertex="1">
+          <mxGeometry height="35" width="213" x="420" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="p0_body" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1C355E;strokeColor=#2B4C80;strokeWidth=1;fontSize=13;fontColor=#FFFFFF;align=center;" value="Firearm Information&lt;br&gt;Repository System&lt;br&gt;(FIRS)" vertex="1">
+          <mxGeometry height="120" width="213" x="420" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_customer" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.2;darkOpacity2=0.3;fillColor=#1E3F24;strokeColor=#2D5C35;strokeWidth=1;fontStyle=0;fontSize=12;fontColor=#FFFFFF;align=center;" value="Customer" vertex="1">
+          <mxGeometry height="110" width="176" x="438" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_dealer" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.2;darkOpacity2=0.3;fillColor=#3B4A54;strokeColor=#526674;strokeWidth=1;fontStyle=0;fontSize=12;fontColor=#FFFFFF;align=center;" value="Authorized Dealer" vertex="1">
+          <mxGeometry height="110" width="174" x="20" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_govt" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.2;darkOpacity2=0.3;fillColor=#3D2E3D;strokeColor=#574257;strokeWidth=1;fontStyle=0;fontSize=12;fontColor=#FFFFFF;align=center;" value="Govt. Authority" vertex="1">
+          <mxGeometry height="110" width="174" x="900" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_admin" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.2;darkOpacity2=0.3;fillColor=#4A320A;strokeColor=#6B4912;strokeWidth=1;fontStyle=0;fontSize=12;fontColor=#FFFFFF;align=center;" value="System Admin" vertex="1">
+          <mxGeometry height="110" width="174" x="120" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_user" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.2;darkOpacity2=0.3;fillColor=#5A3B3D;strokeColor=#825558;strokeWidth=1;fontStyle=0;fontSize=12;fontColor=#FFFFFF;align=center;" value="Authorized User" vertex="1">
+          <mxGeometry height="110" width="174" x="760" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_lic_app" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;fontColor=#E0E0E0;strokeColor=#D0D0D0;labelBackgroundColor=none;align=left;" value="License&lt;br&gt;Application">
+          <mxGeometry relative="1" x="0.1" y="8" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="550" y="130" as="sourcePoint" />
+            <mxPoint x="550" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_lic_stat" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;fontColor=#E0E0E0;strokeColor=#D0D0D0;labelBackgroundColor=none;align=right;" value="License&lt;br&gt;status &amp;&lt;br&gt;Weapon&lt;br&gt;Info.">
+          <mxGeometry relative="1" x="-0.1" y="8" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="500" y="300" as="sourcePoint" />
+            <mxPoint x="500" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_sale_data" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;fontColor=#E0E0E0;strokeColor=#D0D0D0;labelBackgroundColor=none;align=center;" value="Sale &amp;&lt;br&gt;Transfer&lt;br&gt;Data">
+          <mxGeometry relative="1" x="-0.4" y="-15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="174" y="270" as="sourcePoint" />
+            <mxPoint x="435" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_weap_stat" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;fontColor=#E0E0E0;strokeColor=#D0D0D0;labelBackgroundColor=none;align=center;" value="Weapon&lt;br&gt;Status">
+          <mxGeometry relative="1" x="0.3" y="18" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="420" y="440" as="sourcePoint" />
+            <mxPoint x="110" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_gov_app" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;fontColor=#E0E0E0;strokeColor=#D0D0D0;labelBackgroundColor=none;align=center;" value="Licens&lt;br&gt;Approval">
+          <mxGeometry relative="1" x="-0.3" y="18" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="900" y="280" as="sourcePoint" />
+            <mxPoint x="615" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_monitoring" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;fontColor=#E0E0E0;strokeColor=#D0D0D0;labelBackgroundColor=none;align=center;" value="Monitoring">
+          <mxGeometry relative="1" x="0.2" y="-15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="633" y="430" as="sourcePoint" />
+            <mxPoint x="990" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_data_mgt" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;fontColor=#E0E0E0;strokeColor=#D0D0D0;labelBackgroundColor=none;align=center;" value="Data&lt;br&gt;Management">
+          <mxGeometry relative="1" x="0.3" y="-18" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="294" y="680" as="sourcePoint" />
+            <mxPoint x="475" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_sys_stat" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;fontColor=#E0E0E0;strokeColor=#D0D0D0;labelBackgroundColor=none;align=center;" value="System&lt;br&gt;Status">
+          <mxGeometry relative="1" x="-0.4" y="18" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="420" y="455" as="sourcePoint" />
+            <mxPoint x="195" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_search_rec" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;fontColor=#E0E0E0;strokeColor=#D0D0D0;labelBackgroundColor=none;align=center;" value="Search&lt;br&gt;Records">
+          <mxGeometry relative="1" x="0.3" y="18" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="830" y="600" as="sourcePoint" />
+            <mxPoint x="575" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_weap_info" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=11;fontColor=#E0E0E0;strokeColor=#D0D0D0;labelBackgroundColor=none;align=center;" value="Weapon&lt;br&gt;Info.">
+          <mxGeometry relative="1" x="-0.4" y="-15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="633" y="455" as="sourcePoint" />
+            <mxPoint x="850" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

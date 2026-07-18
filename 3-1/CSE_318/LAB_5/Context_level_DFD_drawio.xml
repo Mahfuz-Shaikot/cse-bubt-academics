@@ -1,0 +1,171 @@
+<mxfile host="app.diagrams.net" agent="5.0">
+  <diagram id="FIRS-Context-DFD" name="Context Level DFD">
+    <mxGraphModel dx="1239" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="proc_firs" parent="1" style="resizable=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;align=center;verticalAlign=middle;fontColor=#000000;fontStyle=1;fontSize=14;" value="FIRS&#xa;(Firearm&#xa;Information&#xa;Repository&#xa;System)" vertex="1">
+          <mxGeometry height="120" width="180" x="460" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_customer" parent="1" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;align=center;verticalAlign=middle;fontColor=#000000;fontStyle=1;fontSize=13;" value="Customer" vertex="1">
+          <mxGeometry height="90" width="140" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_admin" parent="1" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;align=center;verticalAlign=middle;fontColor=#000000;fontStyle=1;fontSize=13;" value="System&#xa;Admin" vertex="1">
+          <mxGeometry height="90" width="140" x="880" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_dealer" parent="1" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;align=center;verticalAlign=middle;fontColor=#000000;fontStyle=1;fontSize=13;" value="Authorized&#xa;Dealers" vertex="1">
+          <mxGeometry height="90" width="140" x="80" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_govt" parent="1" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;align=center;verticalAlign=middle;fontColor=#000000;fontStyle=1;fontSize=13;" value="Govt.&#xa;Authority" vertex="1">
+          <mxGeometry height="90" width="140" x="880" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_cust_login" edge="1" parent="1" source="ent_customer" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=0.6;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.1;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;edgeStyle=orthogonalEdgeStyle;" target="proc_firs" value="Log in">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_cust_reg" edge="1" parent="1" source="ent_customer" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=0.8;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;edgeStyle=orthogonalEdgeStyle;" target="proc_firs" value="Register">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_cust_browse" edge="1" parent="1" source="ent_customer" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=0.95;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;" target="proc_firs" value="Browse Catalog">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_cust_apply" edge="1" parent="1" source="ent_customer" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=1;exitY=0.8;exitDx=0;exitDy=0;entryX=0;entryY=0.55;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;" target="proc_firs" value="Apply for License">
+          <mxGeometry relative="1" x="-0.5142" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="460" y="152" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_cust_buy" edge="1" parent="1" source="ent_customer" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.7;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;" target="proc_firs" value="Buy Gun">
+          <mxGeometry relative="1" x="-0.5547" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="460" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_firs_details" edge="1" parent="1" source="proc_firs" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=0;exitY=0.85;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;" target="ent_customer" value="View Gun Details">
+          <mxGeometry relative="1" x="0.4311" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="220" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_firs_cust_status" edge="1" parent="1" source="proc_firs" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=0;exitY=0.95;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;" target="ent_customer" value="Account Status">
+          <mxGeometry relative="1" x="0.4949" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="150" y="454" />
+            </Array>
+            <mxPoint x="320" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_adm_login" edge="1" parent="1" source="ent_admin" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=0;exitY=0.58;exitDx=0;exitDy=0;entryX=1;entryY=0.1;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;exitPerimeter=0;" target="proc_firs" value="Log in">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_adm_user" edge="1" parent="1" source="ent_admin" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=0.1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;" target="proc_firs" value="Manage User Accounts">
+          <mxGeometry relative="1" x="-0.5217" y="6" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="894" y="376" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_adm_db" edge="1" parent="1" source="ent_admin" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=0;exitY=0.8;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;" target="proc_firs" value="Manage Database">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_firs_status" edge="1" parent="1" source="proc_firs" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=1;exitY=0.7;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;" target="ent_admin" value="System Status">
+          <mxGeometry relative="1" x="0.4681" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="950" y="424" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_dlr_permit" edge="1" parent="1" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;entryX=0;entryY=0.9;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;edgeStyle=orthogonalEdgeStyle;" value="Apply for Permit">
+          <mxGeometry relative="1" x="0.017" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="230" y="642" as="sourcePoint" />
+            <mxPoint x="460" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_dlr_sales" edge="1" parent="1" source="ent_dealer" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=0.6;exitY=0;exitDx=0;exitDy=0;entryX=0.15;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;" target="proc_firs" value="Update Sales Info">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="487" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_firs_dlr_status" edge="1" parent="1" source="proc_firs" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;" target="ent_dealer" value="Account Status">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="657" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_dlr_login" edge="1" parent="1" source="ent_dealer" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.35;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;" target="proc_firs" value="Log in">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="523" y="675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_dlr_reg" edge="1" parent="1" source="ent_dealer" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=1;exitY=0.8;exitDx=0;exitDy=0;entryX=0.45;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;" target="proc_firs" value="Register">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="702" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_govt_login" edge="1" parent="1" source="ent_govt" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.55;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;edgeStyle=orthogonalEdgeStyle;" value="Log in">
+          <mxGeometry relative="1" x="-0.0186" y="5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="911" y="648" as="sourcePoint" />
+            <mxPoint x="590" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_firs_lic_perm" edge="1" parent="1" source="proc_firs" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=0.65;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;" target="ent_govt" value="License &amp; Permit Application">
+          <mxGeometry relative="1" x="0.0283" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="580" y="666" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_govt_approve" edge="1" parent="1" source="ent_govt" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=0.2;exitY=0;exitDx=0;exitDy=0;entryX=0.8;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;" target="proc_firs" value="Approval or Rejection">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="908" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_firs_monitor" edge="1" parent="1" source="proc_firs" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=0.9;exitY=0.9;exitDx=0;exitDy=0;entryX=0;entryY=0.6;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;edgeStyle=orthogonalEdgeStyle;" target="ent_govt" value="Monitor Firearm Info">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_firs_update_own" edge="1" parent="1" source="proc_firs" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=0.8;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.8;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;edgeStyle=orthogonalEdgeStyle;" target="ent_govt" value="Update Ownership Info">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_firs_search_own" edge="1" parent="1" source="proc_firs" style="endArrow=block;endSize=6;html=1;rounded=0;strokeColor=#000000;exitX=0.55;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=11;" target="ent_govt" value="Search Ownership Info">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
