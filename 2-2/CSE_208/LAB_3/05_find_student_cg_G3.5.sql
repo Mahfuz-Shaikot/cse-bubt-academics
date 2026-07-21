@@ -1,0 +1,3 @@
+SELECT Name
+FROM Student
+WHERE CGPA > 3.50;

@@ -1,0 +1,5 @@
+SELECT St_Id
+FROM Student
+WHERE CGPA = 3.30
+    OR CGPA = 3.50
+    OR CGPA = 3.96;

@@ -1,0 +1,2 @@
+ALTER TABLE Student
+ADD Age int(2) DEFAULT NULL;

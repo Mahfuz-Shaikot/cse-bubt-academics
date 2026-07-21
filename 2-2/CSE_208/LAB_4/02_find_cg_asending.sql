@@ -1,0 +1,4 @@
+SELECT Name,
+    CGPA
+FROM Student
+ORDER BY CGPA ASC;
