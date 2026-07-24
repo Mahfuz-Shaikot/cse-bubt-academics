@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45b5a0fc-92eb-4dfa-87e4-43a8ad98b3c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/3-2/CSE_322/LAB_3/iteration_multi_dimentional_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-2/CSE_322/LAB_MID/A_STAR_informed_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-2/CSE_322/LAB_MID/BESTFS_informed_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-2/CSE_322/LAB_MID/BFS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-2/CSE_322/LAB_MID/BIDIRECTIONAL_uniformed_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-2/CSE_322/LAB_MID/DFS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-2/CSE_322/LAB_MID/DLS_uniformed_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-2/CSE_322/LAB_MID/IDS_uniformed_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-2/CSE_322/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-2/CSE_322/LAB_1/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-2/CSE_322/LAB_2/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-2/CSE_322/LAB_3/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,8 +125,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.14 (cse-bubt-academics)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3-2/CSE_322/LAB_2" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
@@ -156,8 +146,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.26222.68" />
-        <option value="bundled-python-sdk-50341a9f1f9c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.26222.68" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PY-262.8665.309" />
+        <option value="bundled-python-sdk-c6d794e1806d-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.8665.309" />
       </set>
     </attachedChunks>
   </component>
@@ -170,6 +160,7 @@
       <updated>1783713239296</updated>
       <workItem from="1783713240297" duration="2067000" />
       <workItem from="1783747787193" duration="32000" />
+      <workItem from="1784869671358" duration="134000" />
     </task>
     <servers />
   </component>
@@ -177,10 +168,11 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cse_bubt_academics$while_loop.coverage" NAME="while_loop Coverage Results" MODIFIED="1783714478794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-2/CSE_322/LAB_2" />
     <SUITE FILE_PATH="coverage/cse_bubt_academics$Nth_number.coverage" NAME="Nth_number Coverage Results" MODIFIED="1783713615553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-2/CSE_322/LAB_2" />
     <SUITE FILE_PATH="coverage/cse_bubt_academics$reverse_text.coverage" NAME="reverse_text Coverage Results" MODIFIED="1783713484449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-2/CSE_322/LAB_2" />
+    <SUITE FILE_PATH="coverage/bayesian_network_rain_sprinkler_wetgrass_py$reverse_text.coverage" NAME="reverse_text Coverage Results" MODIFIED="1784869797609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-2/CSE_322/LAB_2" />
     <SUITE FILE_PATH="coverage/cse_bubt_academics$numpy_goal.coverage" NAME="numpy_goal Coverage Results" MODIFIED="1783714402203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-2/CSE_322/LAB_2" />
     <SUITE FILE_PATH="coverage/cse_bubt_academics$vowel_constant_count.coverage" NAME="vowel_constant_count Coverage Results" MODIFIED="1783713532620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-2/CSE_322/LAB_2" />
-    <SUITE FILE_PATH="coverage/cse_bubt_academics$while_loop.coverage" NAME="while_loop Coverage Results" MODIFIED="1783714478794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-2/CSE_322/LAB_2" />
   </component>
 </project>
