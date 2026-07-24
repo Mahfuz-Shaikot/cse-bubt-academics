@@ -13,7 +13,7 @@ A comprehensive tracking repository of my software engineering coursework, syste
 
 - **Term Projects**
   - [*`FIRS`*](https://github.com/Mahfuz-Shaikot/FIRS) *(Spring 2026)*
-  - [*`DealerSync`*](https://github.com/Mahfuz-Shaikot/DealerSync-Inventory-Management-System) *(Summer 2026)*
+  - [*`DealerSync`*](https://github.com/Mahfuz-Shaikot/DealerSync) *(Summer 2026)*
   - [*`ACSIS`*](https://github.com/Mahfuz-Shaikot/Arduino-Air-Conditioner-Safety-System-ACSIS) *(Summer 2026)*
   - [*`CSAPM`*](https://github.com/Mahfuz-Shaikot/Chocolate-Sales-Analytics-and-Predictive-Modeling-CSAPM) *(Summer 2026)*
 
